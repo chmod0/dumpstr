@@ -1,6 +1,6 @@
 {
   "name": "dumpstr",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "mongodumps directly to s3, does not pass go, does not create dump locally and then upload. streams and pipes all the way.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "author": "Tim Atkinson",
   "license": "BSD",
   "dependencies": {
-    "archiver": "^0.14.3",
+    "archiver": "~0.14.3",
     "knox": "~0.9.2",
     "knox-mpu": "git://github.com/timisbusy/knox-mpu.git",
     "mongo-uri": "~0.1.2",
